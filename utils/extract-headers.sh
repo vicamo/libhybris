@@ -165,6 +165,7 @@ extract_headers_to hardware \
     hardware/libhardware/include/hardware
 
 extract_headers_to hardware_legacy \
+    hardware/libhardware_legacy/include/hardware_legacy/wifi.h \
     hardware/libhardware_legacy/include/hardware_legacy/vibrator.h
 if [ $MAJOR -ge 4 -a $MINOR -ge 1 -o $MAJOR -ge 5 ]; then
     extract_headers_to hardware_legacy \
